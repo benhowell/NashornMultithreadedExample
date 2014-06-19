@@ -1,4 +1,0 @@
-NashornMultithreadedExample
-===========================
-
-NashornMultithreadedExample
