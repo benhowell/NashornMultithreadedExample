@@ -1,6 +1,6 @@
 #!/usr/bin/jjs
 
-load('random_meme_generator.js')
+load('webservice.js')
 
 var Thread = Java.type("java.lang.Thread");
 
@@ -14,6 +14,7 @@ print("starting bitcoin thread...");
 bitcoin.run();
 print("starting automeme thread...");
 automeme.run();
+
 
 
 //run for 15 seconds

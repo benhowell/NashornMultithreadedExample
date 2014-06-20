@@ -2,6 +2,8 @@
 * An interruptable sleep routine.
 */
 
+var Thread = Java.type("java.lang.Thread");
+
 function Sleeper(){
   var self = this;
   this.lock = new java.util.concurrent.locks.ReentrantLock();
